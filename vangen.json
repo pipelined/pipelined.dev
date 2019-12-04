@@ -1,0 +1,35 @@
+{
+    "domain": "pipelined.dev",
+    "repositories": [
+      {
+        "prefix": "audio",
+        "subs": [
+            "file",
+            "flac",
+            "mp3",
+            "portaudio",
+            "vst2"
+        ],
+        "url": "https://github.com/pipelined/audio"
+      },
+      {
+        "prefix": "pipe",
+        "subs": [
+            "internal/mock",
+            "internal/pool",
+            "internal/runner",
+            "internal/state",
+            "metric"
+        ],
+        "url": "https://github.com/pipelined/pipe"
+      },
+      {
+        "prefix": "signal",
+        "url": "https://github.com/pipelined/signal"
+      },
+      {
+        "prefix": "example",
+        "url": "https://github.com/pipelined/example"
+      }
+    ]
+  }
