@@ -42,6 +42,9 @@
       },
       {
         "prefix": "signal",
+        "subs": [
+          "pool"
+        ],
         "url": "https://github.com/pipelined/signal"
       },
       {
