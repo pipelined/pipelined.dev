@@ -25,10 +25,10 @@
         "prefix": "pipe",
         "subs": [
             "internal/mock",
-            "internal/pool",
             "internal/runner",
-            "internal/state",
-            "metric"
+            "metric",
+            "mutability",
+            "pool"
         ],
         "url": "https://github.com/pipelined/pipe"
       },
