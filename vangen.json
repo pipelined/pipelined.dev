@@ -1,59 +1,59 @@
 {
-    "domain": "pipelined.dev",
-    "repositories": [
-      {
-        "prefix": "audio",
-        "url": "https://github.com/pipelined/audio"
-      },
-      {
-        "prefix": "example",
-        "url": "https://github.com/pipelined/example"
-      },
-      {
-        "prefix": "file",
-        "url": "https://github.com/pipelined/file"
-      },
-      {
-        "prefix": "flac",
-        "url": "https://github.com/pipelined/flac"
-      },
-      {
-        "prefix": "mp3",
-        "url": "https://github.com/pipelined/mp3"
-      },
-      {
-        "prefix": "pipe",
-        "subs": [
-            "internal/mock",
-            "internal/runner",
-            "metric",
-            "mutability",
-            "pool"
-        ],
-        "url": "https://github.com/pipelined/pipe"
-      },
-      {
-        "prefix": "wav",
-        "url": "https://github.com/pipelined/wav"
-      },
-      {
-        "prefix": "portaudio",
-        "url": "https://github.com/pipelined/portaudio"
-      },
-      {
-        "prefix": "signal",
-        "subs": [
-          "pool"
-        ],
-        "url": "https://github.com/pipelined/signal"
-      },
-      {
-        "prefix": "vst2",
-        "url": "https://github.com/pipelined/vst2"
-      },
-      {
-        "prefix": "wav",
-        "url": "https://github.com/pipelined/wav"
-      }
-    ]
-  }
+  "domain": "pipelined.dev",
+  "repositories": [
+    {
+      "prefix": "audio",
+      "url": "https://github.com/pipelined/audio"
+    },
+    {
+      "prefix": "example",
+      "url": "https://github.com/pipelined/example"
+    },
+    {
+      "prefix": "file",
+      "url": "https://github.com/pipelined/file"
+    },
+    {
+      "prefix": "flac",
+      "url": "https://github.com/pipelined/flac"
+    },
+    {
+      "prefix": "mp3",
+      "url": "https://github.com/pipelined/mp3"
+    },
+    {
+      "prefix": "pipe",
+      "subs": [
+        "internal/runner",
+        "metric",
+        "mock",
+        "mutability",
+        "pool"
+      ],
+      "url": "https://github.com/pipelined/pipe"
+    },
+    {
+      "prefix": "wav",
+      "url": "https://github.com/pipelined/wav"
+    },
+    {
+      "prefix": "portaudio",
+      "url": "https://github.com/pipelined/portaudio"
+    },
+    {
+      "prefix": "signal",
+      "subs": [
+        "pool"
+      ],
+      "url": "https://github.com/pipelined/signal"
+    },
+    {
+      "prefix": "vst2",
+      "url": "https://github.com/pipelined/vst2"
+    },
+    {
+      "prefix": "wav",
+      "url": "https://github.com/pipelined/wav"
+    }
+  ]
+}
