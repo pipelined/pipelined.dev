@@ -41,6 +41,10 @@
       "url": "https://github.com/pipelined/portaudio"
     },
     {
+      "prefix": "repeat",
+      "url": "https://github.com/pipelined/repeat"
+    },
+    {
       "prefix": "signal",
       "subs": [
         "pool"
