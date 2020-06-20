@@ -58,6 +58,10 @@
     {
       "prefix": "wav",
       "url": "https://github.com/pipelined/wav"
+    },
+    {
+      "prefix": "audio/wav",
+      "url": "https://github.com/pipelined/audio/wav"
     }
   ]
 }
