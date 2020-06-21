@@ -60,6 +60,10 @@
       "url": "https://github.com/pipelined/wav"
     },
     {
+      "prefix": "audio/mp3",
+      "url": "https://github.com/pipelined/audio/mp3"
+    },
+    {
       "prefix": "audio/wav",
       "url": "https://github.com/pipelined/audio/wav"
     }
