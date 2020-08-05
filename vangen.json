@@ -28,7 +28,7 @@
         "metric",
         "mock",
         "mutability",
-        "pool"
+        "pooling"
       ],
       "url": "https://github.com/pipelined/pipe"
     },
@@ -61,11 +61,23 @@
     },
     {
       "prefix": "audio/mp3",
-      "url": "https://github.com/pipelined/audio/mp3"
+      "url": "https://github.com/pipelined/mp3"
     },
     {
       "prefix": "audio/wav",
-      "url": "https://github.com/pipelined/audio/wav"
+      "url": "https://github.com/pipelined/wav"
+    },
+    {
+      "prefix": "audio/flac",
+      "url": "https://github.com/pipelined/flac"
+    },
+    {
+      "prefix": "audio/portaudio",
+      "url": "https://github.com/pipelined/portaudio"
+    },
+    {
+      "prefix": "audio/vst2",
+      "url": "https://github.com/pipelined/vst2"
     }
   ]
 }
