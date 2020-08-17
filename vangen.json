@@ -78,6 +78,10 @@
     {
       "prefix": "audio/vst2",
       "url": "https://github.com/pipelined/vst2"
+    },
+    {
+      "prefix": "audio/fileformat",
+      "url": "https://github.com/pipelined/fileformat"
     }
   ]
 }
