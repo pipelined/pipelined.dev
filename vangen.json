@@ -11,7 +11,7 @@
     },
     {
       "prefix": "file",
-      "url": "https://github.com/pipelined/file"
+      "url": "https://github.com/pipelined/fileformat"
     },
     {
       "prefix": "flac",
