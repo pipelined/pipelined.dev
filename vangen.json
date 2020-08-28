@@ -6,22 +6,6 @@
       "url": "https://github.com/pipelined/audio"
     },
     {
-      "prefix": "example",
-      "url": "https://github.com/pipelined/example"
-    },
-    {
-      "prefix": "file",
-      "url": "https://github.com/pipelined/fileformat"
-    },
-    {
-      "prefix": "flac",
-      "url": "https://github.com/pipelined/flac"
-    },
-    {
-      "prefix": "mp3",
-      "url": "https://github.com/pipelined/mp3"
-    },
-    {
       "prefix": "pipe",
       "subs": [
         "internal/runner",
@@ -33,31 +17,11 @@
       "url": "https://github.com/pipelined/pipe"
     },
     {
-      "prefix": "wav",
-      "url": "https://github.com/pipelined/wav"
-    },
-    {
-      "prefix": "portaudio",
-      "url": "https://github.com/pipelined/portaudio"
-    },
-    {
-      "prefix": "repeat",
-      "url": "https://github.com/pipelined/repeat"
-    },
-    {
       "prefix": "signal",
       "subs": [
         "pool"
       ],
       "url": "https://github.com/pipelined/signal"
-    },
-    {
-      "prefix": "vst2",
-      "url": "https://github.com/pipelined/vst2"
-    },
-    {
-      "prefix": "wav",
-      "url": "https://github.com/pipelined/wav"
     },
     {
       "prefix": "audio/mp3",
@@ -82,6 +46,49 @@
     {
       "prefix": "audio/fileformat",
       "url": "https://github.com/pipelined/fileformat"
+    },
+    {
+      "prefix": "example",
+      "url": "https://github.com/pipelined/example"
+    },
+    {
+      "prefix": "phono",
+      "url": "https://github.com/pipelined/phono"
+    },
+    {
+      "deprecated": true,
+      "prefix": "vst2",
+      "url": "https://github.com/pipelined/vst2"
+    },
+    {
+      "deprecated": true,
+      "prefix": "file",
+      "url": "https://github.com/pipelined/fileformat"
+    },
+    {
+      "deprecated": true,
+      "prefix": "flac",
+      "url": "https://github.com/pipelined/flac"
+    },
+    {
+      "deprecated": true,
+      "prefix": "mp3",
+      "url": "https://github.com/pipelined/mp3"
+    },
+    {
+      "deprecated": true,
+      "prefix": "wav",
+      "url": "https://github.com/pipelined/wav"
+    },
+    {
+      "deprecated": true,
+      "prefix": "portaudio",
+      "url": "https://github.com/pipelined/portaudio"
+    },
+    {
+      "deprecated": true,
+      "prefix": "repeat",
+      "url": "https://github.com/pipelined/repeat"
     }
   ]
 }
