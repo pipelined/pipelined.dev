@@ -6,7 +6,12 @@
       "subs": [
         "internal/async",
         "mock",
-        "mutable"
+        "mutable",
+
+        "internal/runner",
+        "metric",
+        "mutability",
+        "pooling"
       ],
       "url": "https://github.com/pipelined/pipe"
     },
@@ -91,18 +96,6 @@
       "deprecated": true,
       "prefix": "repeat",
       "url": "https://github.com/pipelined/repeat"
-    },
-    {
-      "deprecated": true,
-      "prefix": "pipe",
-      "subs": [
-        "internal/runner",
-        "metric",
-        "mock",
-        "mutability",
-        "pooling"
-      ],
-      "url": "https://github.com/pipelined/pipe"
     }
   ]
 }
