@@ -2,17 +2,11 @@
   "domain": "pipelined.dev",
   "repositories": [
     {
-      "prefix": "audio",
-      "url": "https://github.com/pipelined/audio"
-    },
-    {
       "prefix": "pipe",
       "subs": [
-        "internal/runner",
-        "metric",
+        "internal/async",
         "mock",
-        "mutability",
-        "pooling"
+        "mutable"
       ],
       "url": "https://github.com/pipelined/pipe"
     },
@@ -22,6 +16,14 @@
         "pool"
       ],
       "url": "https://github.com/pipelined/signal"
+    },
+    {
+      "prefix": "signal/synthesis",
+      "url": "https://github.com/pipelined/synthesis"
+    },
+    {
+      "prefix": "audio",
+      "url": "https://github.com/pipelined/audio"
     },
     {
       "prefix": "audio/mp3",
@@ -89,6 +91,18 @@
       "deprecated": true,
       "prefix": "repeat",
       "url": "https://github.com/pipelined/repeat"
+    },
+    {
+      "deprecated": true,
+      "prefix": "pipe",
+      "subs": [
+        "internal/runner",
+        "metric",
+        "mock",
+        "mutability",
+        "pooling"
+      ],
+      "url": "https://github.com/pipelined/pipe"
     }
   ]
 }
